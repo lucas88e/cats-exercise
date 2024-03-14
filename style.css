@@ -8,8 +8,24 @@ h1{
     align-content: center;
     justify-content: center;
 }
+
 #button{
 position: relative;
 left: 50vw ;   /* justify-content: center; */
     background-color: aqua;
 }
+div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:5px;
+    background-color: red;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+button{
+
+position: relative;
+left:50vw;}
